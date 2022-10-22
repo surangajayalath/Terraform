@@ -20,3 +20,15 @@ terraform apply
 ```
 terraform show
 ```
+- Terminate Service
+```
+terraform destroy
+```
+- Show outputs
+```
+terraform output
+```
+- Show state list
+```
+terraform state list
+```
