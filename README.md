@@ -72,8 +72,8 @@ show - show resource details.
 ### Files
 ![Screenshot 2022-10-23 at 10 11 19 PM](https://user-images.githubusercontent.com/56903228/197404477-0176db09-5982-438d-a156-287155c3ae0e.png)
 
-
-
+### Variables
+![Screenshot 2022-10-23 at 11 04 52 PM](https://user-images.githubusercontent.com/56903228/197406894-544ce8dc-7512-45c3-9f54-99c76ab82d76.png)
 
 
 
