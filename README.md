@@ -99,6 +99,7 @@ show - show resource details.
 
 ##### Tuples
 - Same as List
+
 ![Screenshot 2022-10-23 at 11 14 16 PM](https://user-images.githubusercontent.com/56903228/197407303-afbd71dd-5b14-4bf6-84a9-a86cd2314521.png)
 
 
