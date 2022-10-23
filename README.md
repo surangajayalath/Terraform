@@ -38,3 +38,79 @@ terraform output
 ```
 terraform state list
 ```
+
+Terraform state - blueprint of infrastructure define by terraform.
+HCL - Declarative Language
+Resource - S3,EC2,DB,GCP,Azure
+random pet - 
+
+### HCL Syntax
+```
+<block> <parameters> {
+  key1 = value1
+  key2 = value2
+}
+```
+##### Example:-
+```
+resource "local_file" "pet" {
+  content = "we love pets"
+}
+```
+![Screenshot 2022-10-23 at 9 26 02 PM](https://user-images.githubusercontent.com/56903228/197402381-2f49386d-2847-4abe-8c6e-71e19526dbf3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
