@@ -75,18 +75,20 @@ show - show resource details.
 ### Variables
 ![Screenshot 2022-10-23 at 11 04 52 PM](https://user-images.githubusercontent.com/56903228/197406894-544ce8dc-7512-45c3-9f54-99c76ab82d76.png)
 
+##### Variable Block
+![Screenshot 2022-10-23 at 11 06 01 PM](https://user-images.githubusercontent.com/56903228/197406946-74273a8e-e16c-42ba-b82c-c2a30b0366cb.png)
 
+### Variable Data types
+![Screenshot 2022-10-23 at 11 06 56 PM](https://user-images.githubusercontent.com/56903228/197406988-a62b40c6-ce82-4f53-aee6-6224d1855b93.png)
 
+##### List
+![Screenshot 2022-10-23 at 11 08 01 PM](https://user-images.githubusercontent.com/56903228/197407034-7f43a692-627b-44ec-aca4-c47cbf3df28e.png)
 
+##### Map
+![Screenshot 2022-10-23 at 11 09 01 PM](https://user-images.githubusercontent.com/56903228/197407082-ec5683a7-3b55-403e-8ca9-3d1c69645eb7.png)
 
-
-
-
-
-
-
-
-
+##### Map of a Type
+![Screenshot 2022-10-23 at 11 10 22 PM](https://user-images.githubusercontent.com/56903228/197407144-b1b0ba60-9cf3-45b5-9daf-75e370c86693.png)
 
 
 
