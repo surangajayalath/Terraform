@@ -62,6 +62,12 @@ resource "aws_instance" "webserver" {
 
 
 
+write 
+init - check configuration file & initializing .tf files
+plan - review(show similar output)
+apply - show execution plan
+show - show resource details.
+
 
 
 
