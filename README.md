@@ -78,7 +78,7 @@ show - show resource details.
 ##### Variable Block
 ![Screenshot 2022-10-23 at 11 06 01 PM](https://user-images.githubusercontent.com/56903228/197406946-74273a8e-e16c-42ba-b82c-c2a30b0366cb.png)
 
-### Variable Data types
+##### Variable Data types
 ![Screenshot 2022-10-23 at 11 06 56 PM](https://user-images.githubusercontent.com/56903228/197406988-a62b40c6-ce82-4f53-aee6-6224d1855b93.png)
 
 ##### List
@@ -90,9 +90,16 @@ show - show resource details.
 ##### Map of a Type
 ![Screenshot 2022-10-23 at 11 10 22 PM](https://user-images.githubusercontent.com/56903228/197407144-b1b0ba60-9cf3-45b5-9daf-75e370c86693.png)
 
+##### Set
+- Can't duplicate values here
+![Screenshot 2022-10-23 at 11 11 26 PM](https://user-images.githubusercontent.com/56903228/197407189-a63384ce-9b96-437d-9f82-58c02e9471a5.png)
 
+##### Objects
+![Screenshot 2022-10-23 at 11 13 06 PM](https://user-images.githubusercontent.com/56903228/197407246-4de29653-db46-4059-ba2b-c301b3add20c.png)
 
-
+##### Tuples
+- Same as List
+![Screenshot 2022-10-23 at 11 14 16 PM](https://user-images.githubusercontent.com/56903228/197407303-afbd71dd-5b14-4bf6-84a9-a86cd2314521.png)
 
 
 
