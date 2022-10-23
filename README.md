@@ -41,7 +41,7 @@ terraform state list
 
 Terraform state - blueprint of infrastructure define by terraform.
 HCL - Declarative Language
-Resource - S3,EC2,DB,GCP,Azure
+Resource/Providers - S3,EC2,DB,GCP,Azure
 random pet - 
 
 ### HCL Syntax
@@ -63,13 +63,14 @@ resource "aws_instance" "webserver" {
 
 
 write 
-init - check configuration file & initializing .tf files
+- init - check configuration file & initializing .tf files
+  - while download & install plugins for the provides   
 plan - review(show similar output)
 apply - show execution plan
 show - show resource details.
 
-
-
+### Files
+![Screenshot 2022-10-23 at 10 11 19 PM](https://user-images.githubusercontent.com/56903228/197404477-0176db09-5982-438d-a156-287155c3ae0e.png)
 
 
 
