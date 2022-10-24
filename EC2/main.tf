@@ -6,10 +6,25 @@ resource "aws_instance" "web" {
   # Attach SG to EC2
   security_groups = [aws_security_group.Security_Group.name]
 
+  # EC2 Instance Name
   tags = {
-    # EC2 Instance Name
     Name = "EC2-VM-01"
   }
+}
+  # Attach Key-Pair
+resource "aws_key_pair" "ec2_key" {
+    key_name = "ec2_key"
+    public_key = tls_private_key.rsa.public_key_openssh
+  }
+  # Key-Pair Algorithm
+resource "tls_private_key" "rsa" {
+    algorithm = "RSA" 
+    rsa_bits = 4096
+  }
+  # Private key store as ec2_key in local directory
+resource "local_file" "ec2_key" {
+    content = tls_private_key.rsa.private_key_pem
+    filename = "ec2_key"
 }
 
 # Add security group
