@@ -65,7 +65,8 @@ resource "aws_security_group" "Security_Group" {
   egress {
     from_port        = 0
     to_port          = 0
-    protocol         = "-1" # "-1" Meant all the traffic
+    # "-1" Meant all the traffic
+    protocol         = "-1" 
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
