@@ -5,12 +5,14 @@ resource "aws_instance" "web" {
   count = 1
   # Attach SG to EC2
   security_groups = [aws_security_group.Security_Group.name]
-
   # EC2 Instance Name
   tags = {
     Name = "EC2-VM-01"
   }
+  user_data = ("data.sh")
 }
+
+
   # Attach Key-Pair
 resource "aws_key_pair" "ec2_key" {
     key_name = "ec2_key"
@@ -70,7 +72,7 @@ resource "aws_security_group" "Security_Group" {
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
-
+  # Name of Security Group
   tags = {
     Name = "Security_Group"
   }
