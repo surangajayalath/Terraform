@@ -102,14 +102,22 @@ show - show resource details.
 
 ![Screenshot 2022-10-23 at 11 14 16 PM](https://user-images.githubusercontent.com/56903228/197407303-afbd71dd-5b14-4bf6-84a9-a86cd2314521.png)
 
-- Variable Definition Precedence
+##### Variable Definition Precedence
 ![Screenshot 2022-10-24 at 6 00 03 PM](https://user-images.githubusercontent.com/56903228/197525777-ec9f73e4-5574-4515-8416-a8439d666aa9.png)
 
+##### Implict Dependency
+![Screenshot 2022-10-24 at 6 35 03 PM](https://user-images.githubusercontent.com/56903228/197532232-516f9dc2-9ee3-478f-b96e-f3f1b5f41b61.png)
 
+##### Explicit Dependency
+![Screenshot 2022-10-24 at 6 37 18 PM](https://user-images.githubusercontent.com/56903228/197532688-6ddc897e-e592-4f36-abe0-7eeb90b9944c.png)
 
-
-
-
+##### Output Variables 
+- Result shows in terminal
+```
+terraform output
+terraform output pet-name
+```
+![Screenshot 2022-10-24 at 6 39 11 PM](https://user-images.githubusercontent.com/56903228/197533072-f948c397-1467-4c38-b92a-e99f494834eb.png)
 
 
 
