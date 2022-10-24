@@ -16,6 +16,10 @@ terraform validate
 - Plan phase terraform drafts a plan to get to the target state
 ```
 terraform plan
+
++ - add
+- - remove
+~ - modify
 ```
 - Apply the configuration now with the terraform apply command. 
 - makes the necessary changes required on the target environment to bring it to the desired state.
