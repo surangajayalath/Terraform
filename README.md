@@ -102,7 +102,8 @@ show - show resource details.
 
 ![Screenshot 2022-10-23 at 11 14 16 PM](https://user-images.githubusercontent.com/56903228/197407303-afbd71dd-5b14-4bf6-84a9-a86cd2314521.png)
 
-
+- Variable Definition Precedence
+![Screenshot 2022-10-24 at 6 00 03 PM](https://user-images.githubusercontent.com/56903228/197525777-ec9f73e4-5574-4515-8416-a8439d666aa9.png)
 
 
 
