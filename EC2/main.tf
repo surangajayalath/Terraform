@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
   ami = "ami-09d3b3274b6c5d4aa"
   instance_type = "t2.micro"
-  # No of Instance
+  # No.of Instance
   count = 1
   # Attach SG to EC2
   security_groups = [aws_security_group.Security_Group.name]
@@ -27,12 +27,14 @@ resource "local_file" "ec2_key" {
     filename = "ec2_key"
 }
 
-# Add security group
+  # Add security group
 resource "aws_security_group" "Security_Group" {
   name        = "Security Group for EC2"
   description = "Security Group for EC2"
+  # Copy id from currently running EC2 Instance
   vpc_id      = "vpc-0399770422b3b69c9"
-
+  
+  # Inbound Traffic
   ingress {
     description      = "HTTPS"
     from_port        = 443
@@ -59,7 +61,7 @@ resource "aws_security_group" "Security_Group" {
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
-
+  # Outbound Traffic
   egress {
     from_port        = 0
     to_port          = 0
