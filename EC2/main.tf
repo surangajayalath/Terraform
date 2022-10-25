@@ -9,6 +9,7 @@ resource "aws_instance" "web" {
   tags = {
     Name = "EC2-VM-01"
   }
+  # Add User Data
   user_data = ("data.sh")
 }
 
